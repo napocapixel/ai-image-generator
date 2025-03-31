@@ -19,7 +19,7 @@ export class OpenaiService {
 
   generateImage(prompt: string): Observable<string> {
     return from(this.openai.images.generate({
-      model: 'dall-e-2',
+      model: 'dall-e-3',
       prompt: prompt,
       n: 1,
       size: '1024x1024'

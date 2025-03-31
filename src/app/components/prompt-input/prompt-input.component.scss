@@ -1,0 +1,9 @@
+.prompt-input {
+  display: flex;
+  flex-direction: column;
+  width: 512px;
+
+  &__field {
+    width: 100%;
+  }
+} 

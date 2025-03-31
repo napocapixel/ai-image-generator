@@ -1,20 +1,7 @@
-.container {
-  padding: 20px;
+.img-gen {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-}
-
-.image-preview {
-  margin-top: 20px;
-  max-width: 100%;
-  width: 512px;
-}
-
-.generated-image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  row-gap: 20px;
 }

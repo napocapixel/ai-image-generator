@@ -1,0 +1,22 @@
+<div class="img-display">
+  <div 
+    class="img-display__skeleton"
+    [class.img-display__skeleton--loading]="isLoading$ | async"
+    *ngIf="!(imageUrl$ | async)">
+  </div>
+  
+  <ng-container *ngIf="imageUrl$ | async as imageUrl">
+    <img  
+      [src]="imageUrl" 
+      alt="Generated image" 
+      class="img-display__image">
+    <button 
+      mat-icon-button 
+      color="warn" 
+      class="img-display__clear-button" 
+      (click)="onClear()"
+      matTooltip="Clear image">
+      <mat-icon>close</mat-icon>
+    </button>
+  </ng-container>
+</div> 
