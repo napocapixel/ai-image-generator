@@ -1,0 +1,9 @@
+<div class="container">
+  <button mat-raised-button color="primary" (click)="testImageGeneration()">
+    Test Image Generation
+  </button>
+
+  <div class="image-preview" *ngIf="generatedImageUrl">
+    <img [src]="generatedImageUrl" alt="Generated image" class="generated-image">
+  </div>
+</div>
