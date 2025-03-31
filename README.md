@@ -1,6 +1,51 @@
-# AiImageGenerator
+# AI Image Generator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+An Angular application that generates images using OpenAI's DALL-E API based on user input.
+
+## Features
+
+- Clean, modern UI using Angular Material
+- Image generation using OpenAI's DALL-E API
+- Responsive design
+- Real-time image generation
+
+## Prerequisites
+
+- Node.js (v18.19 or higher)
+- Angular CLI
+- OpenAI API key
+
+## Setup
+
+1. Clone the repository:
+```bash
+git clone [your-repo-url]
+cd ai-image-generator
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create environment files:
+   - Copy `src/environments/environment.example.ts` to `src/environments/environment.ts`
+   - Add your OpenAI API key to the environment file
+
+4. Run the development server:
+```bash
+ng serve
+```
+
+5. Open your browser and navigate to `http://localhost:4200`
+
+## Development
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Development server
 
